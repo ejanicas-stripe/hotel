@@ -1,7 +1,8 @@
 # How to run this demo
 
-1. Set your enviroment variables `STRIPE_SK_TEST` and `REACT_APP_STRIPE_PK_TEST`:
+1. Set your enviroment variables `FLASK_APP`, `STRIPE_SK_TEST` and `REACT_APP_STRIPE_PK_TEST`:
 ```
+export FLASK_APP=server
 export STRIPE_SK_TEST="sk_test_abcd"
 export REACT_APP_STRIPE_PK_TEST="pk_test_abcd"
 ```
@@ -19,9 +20,9 @@ flask run
 ```
 
 5. Open a terminal tab for your client on the `client` folder
-6. Install React Stripe.js and the Stripe.js loader from the npm public registry:
+6. Install React and its dependencies from the npm public registry:
 ```
-npm install --save @stripe/react-stripe-js @stripe/stripe-js
+npm install
 ```
 
 7. Run the client:
