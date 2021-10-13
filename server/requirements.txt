@@ -1,0 +1,5 @@
+# Find the version you want to pin:
+# https://github.com/stripe/stripe-python/blob/master/CHANGELOG.md
+# Specify that version in your requirements.txt file
+stripe>=2.48.0,<3.0
+flask
